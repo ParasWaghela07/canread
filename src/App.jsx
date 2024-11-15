@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className='w-[100vw] h-[100vh] bg-blue-950 flex flex-col items-center justify-center gap-y-10 overflow-hidden'>
-      <p className='text-white text-3xl font-bold'>I Can Read Your Mind !</p>
-      <p className='text-red-500 text-xl text-center font-bold uppercase'>If you can't do simple math , just leave this site !</p>
+      <p className='text-white text-3xl font-bold text-center'>I Can Read Your Mind !</p>
+      <p className='text-red-500 text-xl w-[90%] text-center font-bold uppercase'>If you can't do simple math , just leave this site !</p>
 
       <div>
         {vis==1 && <Step1 vis={vis} setvis={setvis}/>}

@@ -15,8 +15,8 @@ function Step3({vis,setvis,setans}){
     }
     return(
         <div className="flex flex-col justify-center items-center gap-y-10">
-            <p className='text-white text-xl w-[90%] text-center sm:w-full'>Add {rand} in it !</p>
-            <p className='text-white text-xl w-[90%] text-center sm:w-full'>(Example : 4 + {rand} = {4+rand})</p>
+            <p className='text-white text-xl  text-center w-full'>Add {rand} in it !</p>
+            <p className='text-white text-xl  text-center w-full'>(Example : 4 + {rand} = {4+rand})</p>
             <button className="bg-white p-2 text-black rounded-lg" onClick={submitHandler}>Next</button>
         </div>
     )
